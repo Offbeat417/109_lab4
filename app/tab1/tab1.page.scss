@@ -1,0 +1,45 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+ion-card-header{
+  background-color:#fafafa;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+ion-card{
+  margin-top: 12px;
+  margin-bottom:12px;
+}
+
+ijon-card-content{
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+
+ion-card-title{
+  font-size: 20px;
+  color: #1d5d7a;
+}
+
+ion-card-subtitle{
+  //text-align:right;
+  text-transform:none;
+  width:50%;
+  display:inline-block;
+}
+
+.background{
+   --background: #01C1FB;
+   --background: -webkit-linear-gradient(top left, #01C1FB, #DC3F01);
+  --background: -moz-linear-gradient(top left, #01C1FB, #DC3F01);
+  --background: linear-gradient(to bottom right, #01C1FB, #DC3F01);}
+
+  .date{
+    text-align:right;
+  }
+
+  img{
+    max-height:300px;
+  }

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>
+      Feed
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background">
+  <ion-card *ngFor="let post of postsToShow">
+
+    <ion-card-content>
+       <img src="{{post.imageUrl}}">
+    </ion-card-content>
+
+    <ion-card-header>
+      <ion-card-title> {{post.message}}</ion-card-title>
+      <ion-card-subtitle class="from">{{post.from}}</ion-card-subtitle>
+      
+    
+    </ion-card-header>
+
+  </ion-card>
+
+</ion-content>
+j
